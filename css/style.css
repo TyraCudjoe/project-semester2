@@ -1,0 +1,8 @@
+/* footer properties */
+
+#footer {
+    background-color: rgb(130, 130, 130);
+    border-style: solid;
+    border-color: rgb(85, 85, 85);
+    padding: 20px;
+}
