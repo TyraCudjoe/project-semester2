@@ -1,10 +1,18 @@
 /* footer properties */
 
 #footer {
-    background-color: rgb(130, 130, 130);
+    background-color: rgb(201, 24, 24);
     border-style: solid;
-    border-color: rgb(85, 85, 85);
+    border-color: rgb(199, 45, 45);
     padding: 20px;
+}
+
+nav {
+    background-color: rgb(233, 233, 233);
+}
+
+.nav-link {
+    color: rgb(201, 24, 24);
 }
 
 .cardText {
@@ -15,4 +23,14 @@
 .banner {
     width: 100%;
     height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 65%;
+    height: 65%;
 }
