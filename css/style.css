@@ -15,6 +15,10 @@ nav {
     color: rgb(201, 24, 24);
 }
 
+.card {
+    margin-top: 20px;
+}
+
 .cardText {
     font-size: 20px;
     text-align: center;
@@ -26,7 +30,7 @@ nav {
 }
 
 .navbar-nav {
-    margin-left: auto;
+    margin-left: 430px;
     margin-right: auto;
 }
 
