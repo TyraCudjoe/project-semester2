@@ -29,7 +29,7 @@
     </div>
 
     <!-- goes to the homepage if no page is listed or a perticular page if needed -->
-    <div class="container" id="content">
+    <div class="" id="content">
       <?php 
         if ( isset($_GET["content"])) {
           include($_GET["content"] . "");

@@ -5,10 +5,10 @@
     border-style: solid;
     border-color: rgb(199, 45, 45);
     padding: 20px;
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 nav {
@@ -41,4 +41,12 @@ nav {
 .logo {
     width: 65%;
     height: 65%;
+}
+
+#section {
+    margin-top: 20px;
+}
+
+.section1 {
+    background-color: rgb(228, 228, 228);
 }
