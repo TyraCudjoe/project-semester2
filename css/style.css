@@ -5,6 +5,10 @@
     border-style: solid;
     border-color: rgb(199, 45, 45);
     padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 nav {
