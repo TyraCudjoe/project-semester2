@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="card-body">
-                        <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <p class="card-text-aboutUs">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./img/banner.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>

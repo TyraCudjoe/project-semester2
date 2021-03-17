@@ -20,7 +20,7 @@ nav {
 }
 
 .card {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .cardText {
@@ -49,4 +49,9 @@ nav {
 
 .section1 {
     background-color: rgb(228, 228, 228);
+}
+
+.card-text-aboutUs {
+    padding-top: 100px;
+    /* padding-bottom: auto; */
 }
