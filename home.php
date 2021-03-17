@@ -21,10 +21,11 @@
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation
                         </p>
+                        <a class="btn btn-danger" href="#" role="button">Link</a>
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="./img/banner.jpg" class="card-img-top" alt="...">
+                    <img src="./img/logo.png" id="logoCard" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>
@@ -34,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./img/banner.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="col-6">
                     <div class="card-body">
@@ -43,6 +44,7 @@
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation
                         </p>
+                        <a class="btn btn-danger" href="#" role="button">Link</a>
                     </div>
                 </div>
             </div>
@@ -59,10 +61,11 @@
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation
                         </p>
+                        <a class="btn btn-danger" href="#" role="button">Link</a>
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./img/H2x1_Support_Nintendo_Contact_1.jpg.png" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>
@@ -72,7 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./img/MAP.PNG" class="card-img-top" alt="...">
                 </div>
                 <div class="col-6">
                     <div class="card-body">
@@ -81,6 +84,7 @@
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation
                         </p>
+                        <a class="btn btn-danger" href="#" role="button">Link</a>
                     </div>
                 </div>
             </div>

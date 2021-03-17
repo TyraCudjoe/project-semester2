@@ -5,6 +5,7 @@
     border-style: solid;
     border-color: rgb(199, 45, 45);
     padding: 20px;
+    margin-top: 20px;
     /* position: fixed;
     left: 0;
     bottom: 0;
@@ -52,6 +53,11 @@ nav {
 }
 
 .card-text-aboutUs {
-    padding-top: 100px;
+    padding-top: 80px;
     /* padding-bottom: auto; */
+}
+
+#logoCard {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
