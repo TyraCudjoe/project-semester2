@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <form>
+            <form action="" method="post" class="form-card">
                 <p>Geslacht:</p>
                 <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                     <option selected>Kies een optie</option>
@@ -49,7 +49,7 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-danger">Submit</button>
             </form>
         </div>
     </div>
