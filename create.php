@@ -36,6 +36,7 @@
     $result = mysqli_query($conn, $sql);
 
     var_dump($sql);
+    echo($sql);
 
     if($result) {
         header("Location: ./index.php?content=message&alert=inschrijven_succes");
