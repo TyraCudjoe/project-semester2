@@ -40,7 +40,7 @@
         header("Location: ./index.php?content=message&alert=inschrijven_gefaald");
     }
 
-    header("Location: ./index.php?content=home");
+    
 
 
 
