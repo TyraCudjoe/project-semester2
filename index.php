@@ -31,12 +31,7 @@
     <!-- goes to the homepage if no page is listed or a perticular page if needed -->
     <div class="" id="content">
       <?php 
-        if ( isset($_GET["content"]) && file_exists($_GET['content'].'.php')) {
-          include($_GET["content"] . ".php");
-        } else {
-          echo 'File doesn\'t exist: '.$_GET['content'].'.php';
-          include("./home.php");
-        }          
+        include("./content.php")
       ?>
     </div>
 

@@ -3,11 +3,11 @@
         <div class="col-6">
             <form action="./index.php?content=create" method="post" class="form-card">
                 <p>Geslacht:</p>
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="geslacht">
                     <option selected>Kies een optie</option>
-                    <option value="1">Man</option>
-                    <option value="2">Vrouw</option>
-                    <option value="3">Zeg ik liever niet</option>
+                    <option value="man">Man</option>
+                    <option value="vrouw">Vrouw</option>
+                    <option value="zeg ik liever niet">Zeg ik liever niet</option>
                 </select>
                 <div class="mb-3">
                     <label for="exampleInputVoornaam" class="form-label">Voornaam:</label>

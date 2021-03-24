@@ -1,4 +1,5 @@
 <?php
+
     include("./connectdb.php");
     include("./functions.php");
 
@@ -33,6 +34,8 @@
                     '$huisnummer',
                     '$postcode');";
     $result = mysqli_query($conn, $sql);
+
+    var_dump($sql);
 
     if($result) {
         header("Location: ./index.php?content=message&alert=inschrijven_succes");
