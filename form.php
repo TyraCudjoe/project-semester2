@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <form action="" method="post" class="form-card">
+            <form action="./index.php?content=create" method="post" class="form-card">
                 <p>Geslacht:</p>
                 <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                     <option selected>Kies een optie</option>
