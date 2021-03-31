@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 10, 2021 at 10:18 AM
+-- Generation Time: Mar 31, 2021 at 08:37 AM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `inschrijvingen-autotechniek`
+-- Database: `inschrijvingen_autotechniek`
 --
 
 -- --------------------------------------------------------
@@ -33,14 +33,22 @@ CREATE TABLE IF NOT EXISTS `inschrijvingen` (
   `voornaam` varchar(20) NOT NULL,
   `tussenvoegsel` varchar(10) DEFAULT NULL,
   `achternaam` varchar(20) NOT NULL,
-  `geslacht` enum('man','vrouw','zeg ik liever niet') NOT NULL,
+  `geslacht` enum('m','v','x') NOT NULL,
   `geboortedatum` date NOT NULL,
   `email` varchar(30) NOT NULL,
   `telefoonnummer` varchar(20) NOT NULL,
   `huisnummer` varchar(10) NOT NULL,
   `postcode` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `inschrijvingen`
+--
+
+INSERT INTO `inschrijvingen` (`id`, `voornaam`, `tussenvoegsel`, `achternaam`, `geslacht`, `geboortedatum`, `email`, `telefoonnummer`, `huisnummer`, `postcode`) VALUES
+(1, 'kees', 'van', 'FSEdzcx', 'v', '2021-01-01', 'aronridder@hotmail.nl', '0648377848', '34', '3555VL'),
+(2, 'kees', 'van', '123', 'v', '2021-01-01', 'aronridder@hotmail.nl', '1123', '34', '3555VL');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
