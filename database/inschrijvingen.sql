@@ -27,8 +27,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `inschrijvingen`
 --
 
-DROP TABLE IF EXISTS `inschrijvingen`;
-CREATE TABLE IF NOT EXISTS `inschrijvingen` (
+DROP TABLE IF EXISTS `pro_inschrijvingen`;
+CREATE TABLE IF NOT EXISTS `pro_inschrijvingen` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `voornaam` varchar(20) NOT NULL,
   `tussenvoegsel` varchar(10) DEFAULT NULL,
