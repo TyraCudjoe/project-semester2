@@ -55,12 +55,10 @@
                     <label for="exampleInputPostcode1" class="form-label">Postcode:</label>
                     <input type="Postcode" class="form-control" id="exampleInputPostcode1" name="postcode" required>
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
+                <div class="g-recaptcha" data-sitekey="6LdW0Z8aAAAAAJQ8kZXVvEZQ8TB_cV_paJYn7rDC" required></div>
                 <button type="submit" class="btn btn-danger">Submit</button>
             </form>
         </div>
     </div>
 </div>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
