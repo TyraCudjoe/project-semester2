@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="container">
         <div class="row"> 
-            <div class="col-4 footerText">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 footerText">
                 <h3>Sitemap</h3>
                 <a href="./index.php?content=home">Home</a>
                 <br>
@@ -13,7 +13,7 @@
                 <br>    
                 <a href="./index.php?content=game">Game</a>
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <h3>Contact</h3>
                 <a>Daltonlaan 300,</a>
                 <br>
@@ -23,7 +23,7 @@
                 <br>
                 <a>mboutrecht@mbo.com</a>
             </div>
-            <div class="col-4 footerText">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 footerText">
                 <h3>Read</h3>
                 <a>Hier kunt u de ingevulde formulieren terug vinden:</a>
                 <br>
