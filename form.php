@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-6">
             <form action="./index.php?content=create" method="post" class="form-card">
-            <label class="label" for="geslacht">geslacht</label>
+            <label class="label" for="geslacht">Geslacht</label>
                     <div class="geslacht">
                         <select id="geslacht" class="time" name="geslacht">
                             <option value="m">Man</option>
@@ -55,7 +55,9 @@
                     <label for="exampleInputPostcode1" class="form-label">Postcode:</label>
                     <input type="Postcode" class="form-control" id="exampleInputPostcode1" name="postcode" required>
                 </div>
+
                 <div class="g-recaptcha" data-sitekey="6LdW0Z8aAAAAAJQ8kZXVvEZQ8TB_cV_paJYn7rDC" required></div>
+                
                 <button type="submit" class="btn btn-danger">Submit</button>
             </form>
         </div>
