@@ -22,8 +22,8 @@
             </div>
             <div class="col-4 footerText">
                 <h3>Read</h3>
-                <p>Hier kunnen de ingevulde formulieren terug gevonden worden</p>
-                <a href="./index.php?content=read">ingevulde forumulieren info</a>
+                <p>Hier lunt u de ingevulde formulieren terug vinden</p>
+                <a href="./index.php?content=read">ingevulde forumulieren en hun informatie</a>
             </div>
         </div>
     </div>
