@@ -78,5 +78,15 @@ nav {
 
 .footerText a:hover {
     color: rgb(194, 194, 194);
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
+}
+
+.readCard {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.table {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

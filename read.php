@@ -22,33 +22,37 @@
     }
 ?>
 
-
-
-
-<body>
-    <main class="container">
-        <div class="row">
-            <div class="col-12">
-                <table class="table table-hover table-striped mt-4">
-                    <thead>
-                        <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">Voornaam</th>
-                            <th scope="col">Tussenvoegsel</th>
-                            <th scope="col">Achternaam</th>
-                            <th scope="col">Geslacht</th>
-                            <th scope="col">Geboortedatum</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Telefoonnummer</th>
-                            <th scope="col">Huisnummer</th>
-                            <th scope="col">Postcode</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                            echo $records;
-                        ?>
-                    </tbody>
-                </table>
+<div class="container">
+    <div class="row">
+        <div class="card mt-5">
+            <div class="card-body">
+                <h1 class="readCard">Alle ingeschrijvingen</h1>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Voornaam</th>
+                        <th scope="col">Tussenvoegsel</th>
+                        <th scope="col">Achternaam</th>
+                        <th scope="col">Geslacht</th>
+                        <th scope="col">Geboortedatum</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Telefoonnummer</th>
+                        <th scope="col">Huisnummer</th>
+                        <th scope="col">Postcode</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                            echo $records;
+                        ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
