@@ -18,6 +18,14 @@ nav {
 
 .nav-link {
     color: rgb(201, 24, 24);
+    font-family: 'Lato', sans-serif;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    letter-spacing: 2px;
+    font-size: 300;
+    color: rgb(175, 19, 19);
 }
 
 .card {
