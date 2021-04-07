@@ -69,3 +69,14 @@ nav {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.footerText a {
+    color: black;
+    text-decoration-color: rgb(49, 49, 49);
+    transition: 0.3s;
+}
+
+.footerText a:hover {
+    color: rgb(194, 194, 194);
+    letter-spacing: 2px;
+}
