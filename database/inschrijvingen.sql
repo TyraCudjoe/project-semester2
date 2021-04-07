@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 31, 2021 at 08:37 AM
+-- Generation Time: Apr 07, 2021 at 08:05 AM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `inschrijvingen` (
   `huisnummer` varchar(10) NOT NULL,
   `postcode` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `inschrijvingen`
@@ -48,7 +48,8 @@ CREATE TABLE IF NOT EXISTS `inschrijvingen` (
 
 INSERT INTO `inschrijvingen` (`id`, `voornaam`, `tussenvoegsel`, `achternaam`, `geslacht`, `geboortedatum`, `email`, `telefoonnummer`, `huisnummer`, `postcode`) VALUES
 (1, 'kees', 'van', 'FSEdzcx', 'v', '2021-01-01', 'aronridder@hotmail.nl', '0648377848', '34', '3555VL'),
-(2, 'kees', 'van', '123', 'v', '2021-01-01', 'aronridder@hotmail.nl', '1123', '34', '3555VL');
+(2, 'kees', 'van', '123', 'v', '2021-01-01', 'aronridder@hotmail.nl', '1123', '34', '3555VL'),
+(3, 'kees', 'van', 'spek', 'm', '2021-01-01', 'aronridder@hotmail.nl', '0648377848', '34', '3555VL');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
