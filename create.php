@@ -13,7 +13,7 @@
     $huisnummer = sanitize($_POST["huisnummer"]);
     $postcode = sanitize($_POST["postcode"]);
 
-    $sql = "INSERT INTO `inschrijvingen` (`id`,
+    $sql = "INSERT INTO `pro_inschrijvingen` (`id`,
                                           `voornaam`,
                                           `tussenvoegsel`,
                                           `achternaam`,

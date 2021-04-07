@@ -2,7 +2,7 @@
     include("./connectdb.php");
     include("./functions.php");
 
-    $sql = 'SELECT * FROM `inschrijvingen`';
+    $sql = 'SELECT * FROM `pro_inschrijvingen`';
     $result = mysqli_query($conn, $sql);
 
     $records = "";
