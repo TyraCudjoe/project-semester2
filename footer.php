@@ -15,14 +15,18 @@
             </div>
             <div class="col-4">
                 <h3>Contact</h3>
-                <p>Daltonlaan 300,</p>
-                <p>3584BK, UTRECHT</p>
-                <p>030-281 5100</p>
-                <p>mboutrecht@mbo.com</p>
+                <a>Daltonlaan 300,</a>
+                <br>
+                <a>3584BK, UTRECHT</a>
+                <br>
+                <a>030-281 5100</a>
+                <br>
+                <a>mboutrecht@mbo.com</a>
             </div>
             <div class="col-4 footerText">
                 <h3>Read</h3>
-                <p>Hier lunt u de ingevulde formulieren terug vinden</p>
+                <a>Hier kunt u de ingevulde formulieren terug vinden:</a>
+                <br>
                 <a href="./index.php?content=read">ingevulde forumulieren en hun informatie</a>
             </div>
         </div>

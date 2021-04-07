@@ -26,7 +26,7 @@
     <div class="row">
         <div class="card mt-5">
             <div class="card-body">
-                <h1 class="readCard">Alle ingeschrijvingen</h1>
+                <h1 class="readCard">Alle inschrijvingen</h1>
             </div>
         </div>
     </div>
