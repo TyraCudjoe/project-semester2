@@ -2,6 +2,6 @@
         width="420" height="750"
         codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
  <param name="unity3d" value="WebPlayer.unity3d" />
- <embed id="UnityEmbed" src="(----------->path<------------).unity3d" width="420" height="750"
+ <embed id="UnityEmbed" src="(----------->path<------------).unity3d" width="1500" height="750"
   type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
  </object>
