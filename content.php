@@ -3,7 +3,6 @@
     if ( isset($_GET["content"]) && file_exists($_GET['content'].'.php')) {
         include($_GET["content"] . ".php");
       } else {
-        echo 'File doesn\'t exist: '.$_GET['content'].'.php';
         include("./home.php");
       }          
 ?>
