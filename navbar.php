@@ -14,7 +14,7 @@
         <a class="nav-link" href="./index.php?content=aboutUs">Over ons</a>
         <a class="nav-link" href="./index.php?content=form">Inschrijven</a>
         <a class="nav-link" href="./index.php?content=contact">Contact</a>
-        <a class="nav-link" href="./index.php?content=game">Game</a>
+        <a class="nav-link" href="./index.html">Game</a>
       </div>
     </div>
   </div>
